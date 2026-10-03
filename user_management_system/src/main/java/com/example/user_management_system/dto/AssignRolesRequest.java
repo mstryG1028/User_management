@@ -12,7 +12,4 @@ public class AssignRolesRequest {
 	@NotEmpty(message = "At least one role is required")
 	private Set<RoleName> roles;
 
-	public Set<RoleName> getRoles() {
-		throw new UnsupportedOperationException("Not supported yet.");
-	}
 }
